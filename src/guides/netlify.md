@@ -5,9 +5,9 @@ label: Netlify
 tags: guides
 ---
 
-# Setting up Netlify with an is-a.dev Subdomain
+# Setting up Netlify with an meowed-at.me Subdomain
 
-This guide will walk you through the process of setting up a Netlify deployment and pointing your is-a.dev subdomain towards it.
+This guide will walk you through the process of setting up a Netlify deployment and pointing your meowed-at.me subdomain towards it.
 
 ## Creating a Netlify Website
 
@@ -15,11 +15,11 @@ First, create a website on Netlify. Follow the instructions in the [Netlify Docs
 
 ## Adding the domain to Netlify
 
-To get the records for Netlify, navigate to **Site Settings > Domain Management > Custom Domains** and add `subdomain.is-a.dev` (as an example, you should add the domain which you want to register) in the given field.
+To get the records for Netlify, navigate to **Site Settings > Domain Management > Custom Domains** and add `subdomain.meowed-at.me` (as an example, you should add the domain which you want to register) in the given field.
 
 ### Creating the Domain File
 
-You should see two domains that Netlify added, `subdomain.is-a.dev` and `www.subdomain.is-a.dev`. You have to make both of them so that you can successfully add a domain to Netlify. (`subdomain` being your domain name of choice, of course)
+You should see two domains that Netlify added, `subdomain.meowed-at.me` and `www.subdomain.meowed-at.me`. You have to make both of them so that you can successfully add a domain to Netlify. (`subdomain` being your domain name of choice, of course)
 
 Create a JSON file inside the `domains` directory called `subdomain.json` with the following content:
 
@@ -59,4 +59,4 @@ After you've made both of the files, make a pull request and wait.
 
 ### Final Steps
 - Wait for the DNS changes to propagate. This can take from a few minutes to a couple of hours.
-- Your Netlify website should now be accessible at `your-subdomain.is-a.dev`.
+- Your Netlify website should now be accessible at `your-subdomain.meowed-at.me`.

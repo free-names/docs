@@ -5,13 +5,13 @@ label: Replit
 tags: guides
 ---
 
-# Setting up Replit with an is-a.dev subdomain
+# Setting up Replit with an meowed-at.me subdomain
 
 ## Creating a project
 
 Follow the instructions in the [Replit Workspace Guide](https://docs.replit.com/programming-ide/introduction-to-the-workspace#how-to-create-a-repl) on how to create a project.
 
-### Connect your Replit site to your is-a.dev subdomain
+### Connect your Replit site to your meowed-at.me subdomain
 
 Follow the instructions in the [Replit Custom Domains Guide](https://docs.replit.com/features/publishing/custom-domains#connect-a-domain-manually).
 
@@ -36,4 +36,4 @@ Create a JSON file inside `domains` directory (`domains/subdomain.json`) with th
 
 ## Finish
 
-Once your pull request has been merged you should be able to visit your new is-a.dev subdomain connected to your Replit site!
+Once your pull request has been merged you should be able to visit your new meowed-at.me subdomain connected to your Replit site!

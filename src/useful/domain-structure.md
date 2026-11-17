@@ -7,7 +7,7 @@ tags: useful
 # Domain Structure
 
 To register a subdomain, submit a pull request with a new JSON file in the `domains` directory.
-For example, to register `example.is-a.dev`, create a file named `example.json` in `domains/`:
+For example, to register `example.meowed-at.me`, create a file named `example.json` in `domains/`:
 
 ```
 domains/example.json
@@ -17,7 +17,7 @@ domains/example.json
 
 ## Filename Guidelines
 
-To register a nested subdomain like `blog.example.is-a.dev`, use dots (`.`) in the filename:
+To register a nested subdomain like `blog.example.meowed-at.me`, use dots (`.`) in the filename:
 `blog.example.json`
 
 Each part of the filename (i.e., each subdomain label) must follow these rules:
@@ -26,7 +26,7 @@ Each part of the filename (i.e., each subdomain label) must follow these rules:
 * Minimum of **1 character**, maximum of **244 characters** (excluding `.json`).
 * Each label (segment between dots) must be **≤ 63 characters**.
 * File must **end with `.json`**.
-* **Must not contain `is-a.dev`**.
+* **Must not contain `meowed-at.me`**.
 * **Must not begin with a dot**, or contain spaces or invalid characters.
 
 ### Invalid Filenames
@@ -40,7 +40,7 @@ Each part of the filename (i.e., each subdomain label) must follow these rules:
 | `a .json`                     | Contains a space                    |
 | `a$.json`                     | Non-alphanumeric character          |
 | `a.json.json`                 | Multiple extensions                 |
-| `a.is-a.dev.json`             | Contains reserved string `is-a.dev` |
+| `a.meowed-at.me.json`             | Contains reserved string `meowed-at.me` |
 | `a--a.json`                   | Consecutive dashes                  |
 | `blog._a.json`                | Label starts with an underscore     |
 | `abc123.aaaaaaaa...aaaa.json` | Label exceeds 63 characters         |
@@ -69,12 +69,11 @@ Each part of the filename (i.e., each subdomain label) must follow these rules:
 ```json
 {
   "owner": {
-    "username": "is-a-dev"
+    "username": "meowed-at-me"
   },
   "records": {
-    "CNAME": "is-a-dev-docs.pages.dev"
-  },
-  "proxied": true
+    "CNAME": "meowed-at-me.github.io"
+  }
 }
 ```
 
@@ -104,7 +103,7 @@ Example:
 
 Specify your domain's DNS records.
 
-See all supported record types in the [FAQ](./faq#which-records-are-supported).
+See all supported record types in the [FAQ](./faq#which-dns-record-types-are-supported).
 
 #### Record Type Examples
 
@@ -122,14 +121,6 @@ See all supported record types in the [FAQ](./faq#which-records-are-supported).
   "AAAA": ["2001:db8::1", "2001:db8::2"]
   ```
 
-* **CAA**
-  Controls which CAs can issue certificates:
-
-  ```json
-  "CAA": [
-    { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
-  ]
-  ```
 
 * **CNAME**
   Points to another hostname:
@@ -180,7 +171,7 @@ See all supported record types in the [FAQ](./faq#which-records-are-supported).
   "NS": ["ns1.example.com", "ns2.example.com"]
   ```
 
-  > Refer to the [FAQ](https://docs.is-a.dev/faq/#who-can-use-ns-records) for guidance on valid use cases.
+  > Refer to the [FAQ](https://docs.meowed-at.me/faq/#who-can-use-ns-records) for guidance on valid use cases.
 
 * **SRV**
   Defines service records:
@@ -196,19 +187,6 @@ See all supported record types in the [FAQ](./faq#which-records-are-supported).
   ]
   ```
 
-* **TLSA**
-  Validates a TLS/SSL certificate:
-
-  ```json
-  "TLSA": [
-    {
-      "usage": 1,
-      "selector": 1,
-      "matching_type": 1,
-      "certificate": "..."
-    }
-  ]
-  ```
 
 * **TXT**
   Used for verification and other metadata:
@@ -225,13 +203,6 @@ See all supported record types in the [FAQ](./faq#which-records-are-supported).
   "TXT": ["part1", "part2"]
   ```
 
-* **URL**
-  Redirects your subdomain to a URL:
-
-  ```json
-  "URL": "https://example.com"
-  ```
-
 ---
 
 ### `proxied` (optional)
@@ -241,20 +212,3 @@ Enable Cloudflare proxy:
 ```json
 "proxied": true
 ```
-
----
-
-### `redirect_config` (optional)
-
-Custom redirect paths for your domain:
-
-```json
-"redirect_config": {
-  "custom_paths": {
-    "/github": "https://github.com/is-a-dev"
-  },
-  "redirect_paths": true
-}
-```
-
-> See full example: [`william.json`](https://github.com/is-a-dev/register/blob/main/domains/william.json)

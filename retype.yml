@@ -1,43 +1,43 @@
 input: ./src
 output: .retype
-url: docs.is-a.dev
+url: docs.meowed-at.me
 branding:
-  title: is-a.dev Docs
-  logo: /media/logo_circle.png
+  title: meowed-at.me Docs
+  logo: /media/collar.svg
   logoAlign: left
   colors:
     label:
       text: "#ffffff"
-      background: "#9d00ff"
+      background: "#eb459e"
 links:
   - text: Home
     link: index.md
     icon: home
   - text: Website
-    link: https://is-a.dev
+    link: https://meowed-at.me
     icon: globe
   - text: Register
-    link: https://github.com/is-a-dev/register
+    link: https://github.com/meowed-at-me/register
     icon: mark-github
     target: blank
-  - text: Donate
-    link: https://donate.is-a.dev
-    icon: heart
+  - text: Discord
+    link: https://discord.gg/KFEN5E3PyR
+    icon: comment-discussion
     target: blank
 edit:
-  repo: "https://github.com/is-a-dev/docs"
+  repo: "https://github.com/meowed-at-me/docs"
   base: "/src"
   branch: "main"
   label: "Edit this page"
 editor:
   enabled: true
-favicon: /media/logo_circle.png
+favicon: /media/collar.svg
 generator:
   recase: all
 markdown:
   lineBreaks: soft
 meta:
-  title: " | is-a.dev Docs"
+  title: " | meowed-at.me Docs"
 search:
   hotkeys:
     - "/"
@@ -56,7 +56,7 @@ templating:
   enabled: true
   liquid: false
 footer:
-  copyright: "&copy; 2020-2026 is-a.dev - All Rights Reserved."
+  copyright: "&copy; {{ year }} meowed-at.me. Based on the is-a.dev docs (GPL-3.0)."
   links:
-    - text: is-a-dev/docs
-      link: https://github.com/is-a-dev/docs
+    - text: meowed-at-me/docs
+      link: https://github.com/meowed-at-me/docs
