@@ -2,9 +2,9 @@
 This hosting provider has changed a lot in recent times, so this guide may not be up to date with the current system the hosting provider has.
 !!!
 
-# Setting up DanBot Hosting with an is-a.dev subdomain
+# Setting up DanBot Hosting with an meowed-at.me subdomain
 
-This guide will walk you through the process of setting up a DanBot Hosting website and pointing your is-a.dev subdomain to it.
+This guide will walk you through the process of setting up a DanBot Hosting website and pointing your meowed-at.me subdomain to it.
 
 ## Proxy IP
 
@@ -33,6 +33,6 @@ After your pull request is merged, locate the server you wish to proxy. Head on 
 
 ![](../media/dbh_proxy/DoaminsTab.png)
 
-Enter your subdomain you wish to use, like: your-subdomain.is-a.dev, select the SSL option and hit link button. 
+Enter your subdomain you wish to use, like: your-subdomain.meowed-at.me, select the SSL option and hit link button. 
 
 ![](../media/dbh_proxy/DoaminsTab-Proxy.png)

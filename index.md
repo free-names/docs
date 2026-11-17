@@ -1,15 +1,13 @@
 ![](media/banner.png)
 
-# is-a.dev Documentation
-Here you'll find detailed guides, the JSON file structure, and more. If you'd like to contribute to our documentation, visit [our documentation repository](https://github.com/is-a-dev/docs) on GitHub.
+# meowed-at.me Documentation
+Here you'll find detailed guides, the JSON file structure, and more. If you'd like to contribute to our documentation, visit [our documentation repository](https://github.com/meowed-at-me/docs) on GitHub.
 
 ## How to Register
 For our Quick Start guide you can click [here](quickstart) to read it. You can also read about the domains' JSON file structure [here](useful/domain-structure).
 
 ## Guides
 - [GitHub Pages](guides/github-pages)
-- [Cloudflare Pages](guides/cloudflare-pages)
-- [Vercel](guides/vercel)
 - [Codeberg Pages](guides/codeberg-pages)
 - [Netlify](guides/netlify)
 - [Zoho Mail](guides/zoho-mail)
@@ -22,7 +20,6 @@ For our Quick Start guide you can click [here](quickstart) to read it. You can a
 - [Replit](guides/replit)
 - [Discord Domain Verification](guides/discord-verification)
 - [Bluesky Custom Handle](guides/bsky-handle)
-- [Lovable](guides/lovable)
 - [Other Services](guides/other)
 
 ## Useful
@@ -31,12 +28,12 @@ For our Quick Start guide you can click [here](quickstart) to read it. You can a
  - [Resources](useful/resources)
 
 ## Official Subdomains
-These are the official subdomains run by the is-a.dev staff team.
+These are the official subdomains run by the meowed-at.me staff team.
 
-- [`is-a.dev`](https://is-a.dev) (the root domain, used for the main page, documentation, and emails.)
-- [`data.is-a.dev`](https://data.is-a.dev) (data visualization website, run by [@wdhdev](https://github.com/wdhdev).)
-- `docs.is-a.dev` (this website.)
+- [`meowed-at.me`](https://meowed-at.me) (the root domain, used for the main page, documentation, and emails.)
+- [`www.meowed-at.me`](https://www.meowed-at.me) (redirects to the main page.)
+- `docs.meowed-at.me` (this website.)
 
-**Do *NOT* trust any websites claiming to be us that are not listed here. If you find any, please report them to [admin@is-a.dev](mailto:admin@is-a.dev).**
+**Do *NOT* trust any websites claiming to be us that are not listed here. If you find any, please report them to [admin@meowed-at.me](mailto:admin@meowed-at.me).**
 
-*We do not send unsolicited emails to users, do not trust any unsolicited emails claiming they are us. Report any unsolicited emails to [admin@is-a.dev](mailto:admin@is-a.dev).*
+*We do not send unsolicited emails to users, do not trust any unsolicited emails claiming they are us. Report any unsolicited emails to [admin@meowed-at.me](mailto:admin@meowed-at.me).*

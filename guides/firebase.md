@@ -1,6 +1,6 @@
-# Setting up Firebase Hosting with an is-a.dev Subdomain
+# Setting up Firebase Hosting with an meowed-at.me Subdomain
 
-This guide will walk you through the process of setting up a Firebase Hosting site and pointing your is-a.dev subdomain towards it.
+This guide will walk you through the process of setting up a Firebase Hosting site and pointing your meowed-at.me subdomain towards it.
 
 ## Creating a Firebase Project
 
@@ -34,12 +34,12 @@ Make sure to replace:
 
 ### Configuring Firebase Hosting for Custom Domain
 
-After your pull request is merged and your is-a.dev subdomain is active:
+After your pull request is merged and your meowed-at.me subdomain is active:
 
 1. Go to your Firebase Console
 2. Navigate to **Hosting** in the left sidebar
 3. Click **Add custom domain**
-4. Enter your is-a.dev subdomain (e.g., `example.is-a.dev`)
+4. Enter your meowed-at.me subdomain (e.g., `example.meowed-at.me`)
 5. Firebase will verify domain ownership automatically through DNS
 6. Wait for the SSL certificate to be provisioned (this can take up to 24 hours)
 

@@ -1,4 +1,4 @@
-# Setting up a Bluesky custom handle with an is-a.dev subdomain
+# Setting up a Bluesky custom handle with an meowed-at.me subdomain
 
 ## Get your verification string
 
@@ -18,7 +18,7 @@
 
    ![](../media/bsky/step_4.png)
 
-5. **Enter** your is-a.dev subdomain name in the text input and then **Copy** the TXT string. (e.g. `your-subdomain.is-a.dev`).
+5. **Enter** your meowed-at.me subdomain name in the text input and then **Copy** the TXT string. (e.g. `your-subdomain.meowed-at.me`).
 
    ![](../media/bsky/step_5.png)
 

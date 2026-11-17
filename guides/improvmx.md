@@ -1,11 +1,11 @@
-# Setting up ImprovMX with an is-a.dev subdomain
+# Setting up ImprovMX with an meowed-at.me subdomain
 
-This guide will walk you through the process of setting up ImprovMX with your is-a.dev subdomain.
+This guide will walk you through the process of setting up ImprovMX with your meowed-at.me subdomain.
 
 ## Requirements
 
 1. You must have an ImprovMX account. If you don't have an ImprovMX account, please visit [their website](https://improvmx.com) and create an account.
-2. You should have already forked the [is-a.dev repository](https://github.com/is-a-dev/register). If you haven't forked the repository, please make one by using [this link](https://github.com/is-a-dev/register/fork).
+2. You should have already forked the [meowed-at.me repository](https://github.com/meowed-at-me/register). If you haven't forked the repository, please make one by using [this link](https://github.com/meowed-at-me/register/fork).
 
 ## Creating the file
 
@@ -24,7 +24,7 @@ After you've made the file, it should look like this:
 }
 ```
 
-**After you've made the file, make a pull request to the [is-a.dev repository](https://github.com/is-a-dev/register).**
+**After you've made the file, make a pull request to the [meowed-at.me repository](https://github.com/meowed-at-me/register).**
 
 ## Configuring
 

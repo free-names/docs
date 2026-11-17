@@ -1,29 +1,26 @@
-﻿#  | is-a.dev Docs
+﻿#  | meowed-at.me Docs
 
 > Here you'll find detailed guides, the JSON file structure, and more. If you'd like to contribute to our documentation, visit our documentation repository on GitHub.
 
-- [is-a.dev Documentation](https://docs.is-a.dev/index.md): is-a.dev Documentation
-- [Quickstart Guide](https://docs.is-a.dev/quickstart.md): Before you start the process of making an is-a.dev domain, make sure you have the following:
-- [Domain Structure](https://docs.is-a.dev/useful/domain-structure.md): To register a subdomain, submit a pull request with a new JSON file in the domains directory. For example, to register example.is-a.dev, create a file
-- [📘 Frequently Asked Questions (FAQ)](https://docs.is-a.dev/useful/faq.md): This page provides our most frequently asked questions regarding our service.
-- [Resources](https://docs.is-a.dev/useful/resources.md): This page provides a collection of resources to help you understand key concepts related to domain management, such as DNS, records, and more.
+- [meowed-at.me Documentation](https://docs.meowed-at.me/index.md): meowed-at.me Documentation
+- [Quickstart Guide](https://docs.meowed-at.me/quickstart.md): Before you start the process of making an meowed-at.me domain, make sure you have the following:
+- [Domain Structure](https://docs.meowed-at.me/useful/domain-structure.md): To register a subdomain, submit a pull request with a new JSON file in the domains directory. For example, to register example.meowed-at.me, create a file
+- [📘 Frequently Asked Questions (FAQ)](https://docs.meowed-at.me/useful/faq.md): This page provides our most frequently asked questions regarding our service.
+- [Resources](https://docs.meowed-at.me/useful/resources.md): This page provides a collection of resources to help you understand key concepts related to domain management, such as DNS, records, and more.
 
 ## Guides
 
-- [GitHub Pages](https://docs.is-a.dev/guides/github-pages.md): This guide will walk you through the process of setting up a GitHub Pages site and pointing your is-a.dev subdomain to it.
-- [Setting up Cloudflare Pages with an is-a.dev subdomain](https://docs.is-a.dev/guides/cloudflare-pages.md): This guide will walk you through the process of setting up a Cloudflare Pages website and pointing your is-a.dev subdomain towards it.
-- [Setting up Vercel with an is-a.dev subdomain](https://docs.is-a.dev/guides/vercel.md): This guide will walk you through the process of setting up a Vercel site and pointing your is-a.dev subdomain towards it.
-- [Setting up Codeberg Pages with an is-a.dev subdomain](https://docs.is-a.dev/guides/codeberg-pages.md): This guide will walk you through the process of setting up a Codeberg Pages (or any git-pages host) website and pointing your is-a.dev subdomain to it.
-- [Setting up Netlify with an is-a.dev Subdomain](https://docs.is-a.dev/guides/netlify.md): This guide will walk you through the process of setting up a Netlify deployment and pointing your is-a.dev subdomain towards it.
-- [Setting up Zoho Mail using is-a.dev subdomain](https://docs.is-a.dev/guides/zoho-mail.md): This guide will walk you through the process of setting up custom email in Zoho Mail with your is-a.dev subdomain.
-- [Setting up ImprovMX with an is-a.dev subdomain](https://docs.is-a.dev/guides/improvmx.md): This guide will walk you through the process of setting up ImprovMX with your is-a.dev subdomain.
-- [Setting up DanBot Hosting with an is-a.dev subdomain](https://docs.is-a.dev/guides/dbh.md): This hosting provider has changed a lot in recent times, so this guide may not be up to date with the current system the hosting provider has.
-- [Setting up Firebase Hosting with an is-a.dev Subdomain](https://docs.is-a.dev/guides/firebase.md): This guide will walk you through the process of setting up a Firebase Hosting site and pointing your is-a.dev subdomain towards it.
-- [Hashnode Blog](https://docs.is-a.dev/guides/hashnode.md): When you create your Hashnode blog, Hashnode provides a free hashnode.dev subdomain for you. However, you can alternatively set up your own is-a.dev subdomain.
-- [Setting up is-a.dev with Railway](https://docs.is-a.dev/guides/railway.md): Navigate to the dashboard > project > service
-- [Setting up Render with an is-a.dev Subdomain](https://docs.is-a.dev/guides/render.md): This guide will walk you through the process of setting up a Render deployment and pointing your is-a.dev subdomain towards it.
-- [Setting up Replit with an is-a.dev subdomain](https://docs.is-a.dev/guides/replit.md): Follow the instructions in the Replit Workspace Guide on how to create a project.
-- [Setting up Discord domain connection with your is-a.dev subdomain](https://docs.is-a.dev/guides/discord-verification.md): Open your Discord app and press Settings.
-- [Setting up a Bluesky custom handle with an is-a.dev subdomain](https://docs.is-a.dev/guides/bsky-handle.md): Open your Bluesky app and go to your profile Settings.
-- [Lovable](https://docs.is-a.dev/guides/lovable.md): This guide will walk you through the process of making your Lovable Project work on is-a.dev subdomains. Currently Lovable doesn't intergrate directly with is-a.dev, so we have to use GitHub as a proxy with Cloudflare Pages to make this work.
-- [Setting up other services with is-a.dev](https://docs.is-a.dev/guides/other.md): Read the domain file structure and set up the records accordingly.
+- [GitHub Pages](https://docs.meowed-at.me/guides/github-pages.md): This guide will walk you through the process of setting up a GitHub Pages site and pointing your meowed-at.me subdomain to it.
+- [Setting up Codeberg Pages with an meowed-at.me subdomain](https://docs.meowed-at.me/guides/codeberg-pages.md): This guide will walk you through the process of setting up a Codeberg Pages (or any git-pages host) website and pointing your meowed-at.me subdomain to it.
+- [Setting up Netlify with an meowed-at.me Subdomain](https://docs.meowed-at.me/guides/netlify.md): This guide will walk you through the process of setting up a Netlify deployment and pointing your meowed-at.me subdomain towards it.
+- [Setting up Zoho Mail using meowed-at.me subdomain](https://docs.meowed-at.me/guides/zoho-mail.md): This guide will walk you through the process of setting up custom email in Zoho Mail with your meowed-at.me subdomain.
+- [Setting up ImprovMX with an meowed-at.me subdomain](https://docs.meowed-at.me/guides/improvmx.md): This guide will walk you through the process of setting up ImprovMX with your meowed-at.me subdomain.
+- [Setting up DanBot Hosting with an meowed-at.me subdomain](https://docs.meowed-at.me/guides/dbh.md): This hosting provider has changed a lot in recent times, so this guide may not be up to date with the current system the hosting provider has.
+- [Setting up Firebase Hosting with an meowed-at.me Subdomain](https://docs.meowed-at.me/guides/firebase.md): This guide will walk you through the process of setting up a Firebase Hosting site and pointing your meowed-at.me subdomain towards it.
+- [Hashnode Blog](https://docs.meowed-at.me/guides/hashnode.md): When you create your Hashnode blog, Hashnode provides a free hashnode.dev subdomain for you. However, you can alternatively set up your own meowed-at.me subdomain.
+- [Setting up meowed-at.me with Railway](https://docs.meowed-at.me/guides/railway.md): Navigate to the dashboard > project > service
+- [Setting up Render with an meowed-at.me Subdomain](https://docs.meowed-at.me/guides/render.md): This guide will walk you through the process of setting up a Render deployment and pointing your meowed-at.me subdomain towards it.
+- [Setting up Replit with an meowed-at.me subdomain](https://docs.meowed-at.me/guides/replit.md): Follow the instructions in the Replit Workspace Guide on how to create a project.
+- [Setting up Discord domain connection with your meowed-at.me subdomain](https://docs.meowed-at.me/guides/discord-verification.md): Open your Discord app and press Settings.
+- [Setting up a Bluesky custom handle with an meowed-at.me subdomain](https://docs.meowed-at.me/guides/bsky-handle.md): Open your Bluesky app and go to your profile Settings.
+- [Setting up other services with meowed-at.me](https://docs.meowed-at.me/guides/other.md): Read the domain file structure and set up the records accordingly.

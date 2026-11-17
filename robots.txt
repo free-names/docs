@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://docs.is-a.dev/sitemap.xml
+Sitemap: https://docs.meowed-at.me/sitemap.xml

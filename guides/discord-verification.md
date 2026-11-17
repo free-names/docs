@@ -1,4 +1,4 @@
-# Setting up Discord domain connection with your is-a.dev subdomain
+# Setting up Discord domain connection with your meowed-at.me subdomain
 
 ## Get your verification string
 
@@ -14,7 +14,7 @@
 4. Click on the domain button (the globe icon).
    ![](../media/discord/step_4.png)
 
-5. In the field that appears type your is-a.dev domain name (e.g. `your-domain.is-a.dev`).
+5. In the field that appears type your meowed-at.me domain name (e.g. `your-domain.meowed-at.me`).
    ![](../media/discord/step_5.png)
 
 6. Copy the verification string.

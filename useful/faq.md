@@ -8,7 +8,6 @@ We support the following DNS record types:
 
 * `A`
 * `AAAA`
-* `CAA`
 * `CNAME`
 * `DS`
   * *Note: Can only be used alongside `NS` records.*
@@ -16,14 +15,11 @@ We support the following DNS record types:
 * `NS`
   * *Note: Only approved in specific cases. See [Who can use NS records?](#who-can-use-ns-records) for details.*
 * `SRV`
-* `TLSA`
 * `TXT`
-* `URL`
-  * *Note: This is not a true DNS record. It is a custom made redirector specifically for is-a.dev.*
 
 ---
 
-## Why does my domain still redirect to the is-a.dev homepage?
+## Why does my domain still redirect to the meowed-at.me homepage?
 
 This usually happens due to browser caching. [Clear your browser cache](https://support.google.com/accounts/answer/32050) and try again.
 
@@ -31,31 +27,29 @@ This usually happens due to browser caching. [Clear your browser cache](https://
 
 ## Can I use a CNAME record with other record types?
 
-No, unless the domain is proxied. A `CNAME` cannot be combined with other record types (`A`, `MX`, `TXT`, etc.) in the same record set. For exceptions and setup instructions, see [Proxying Your Domain](https://docs.is-a.dev/domain-structure/#-proxied-optional).
+No, unless the domain is proxied. A `CNAME` cannot be combined with other record types (`A`, `MX`, `TXT`, etc.) in the same record set. For exceptions and setup instructions, see [Proxying Your Domain](https://docs.meowed-at.me/domain-structure/#-proxied-optional).
 
 ---
 
 ## How long does it take for my pull request to be merged?
 
-We're a team of volunteers, and is-a.dev is a side project for us, so review times can vary. We'll get to your PR as soon as we can.
+We're a team of volunteers, and meowed-at.me is a side project for us, so review times can vary. We'll get to your PR as soon as we can.
 
 ---
 
 ## Which platforms or services are supported?
 
-While you can use almost any service, these are the most commonly used with is-a.dev:
+While you can use almost any service, these are the most commonly used with meowed-at.me:
 
-* Cloudflare Pages
 * GitHub Pages
 * Netlify
 * Railway
-* Vercel
 
 ---
 
-## Can I create nested subdomains (e.g., `sub.example.is-a.dev`)?
+## Can I create nested subdomains (e.g., `sub.example.meowed-at.me`)?
 
-Yes! You can nest subdomains as deeply as you'd like. To create one, name your file like `blog.example.json`. You **must own** `example.is-a.dev` to register `blog.example.is-a.dev`.
+Yes! You can nest subdomains as deeply as you'd like. To create one, name your file like `blog.example.json`. You **must own** `example.meowed-at.me` to register `blog.example.meowed-at.me`.
 
 ---
 
@@ -65,7 +59,7 @@ Go to your GitHub Pages settings for your repository and **enable "Enforce HTTPS
 
 ---
 
-## Can I become a maintainer or join the is-a.dev team?
+## Can I become a maintainer or join the meowed-at.me team?
 
 We don't accept direct applications. Team members are **handpicked**, often based on community involvement and support activity. Even then, it does **not guarantee** a position.
 
@@ -75,8 +69,8 @@ We don't accept direct applications. Team members are **handpicked**, often base
 
 * If **your PR containing sensitive information has not been merged**, contact us immediately:
 
-  * Email: [admin@is-a.dev](mailto:admin@is-a.dev)
-  * Discord: [@williamharrison](https://discord.com/users/853158265466257448)
+  * Email: [admin@meowed-at.me](mailto:admin@meowed-at.me)
+  * Discord: [our server](https://discord.gg/KFEN5E3PyR)
 
 * If your PR **has already been merged**, we cannot retroactively remove it.
 
@@ -87,8 +81,8 @@ We don't accept direct applications. Team members are **handpicked**, often base
 Yes, use an `A` record and an `SRV` record.
 Refer to this [Namecheap article](https://www.namecheap.com/support/knowledgebase/article.aspx/9765/2208/how-can-i-link-my-domain-name-to-a-minecraft-server) for guidance.
 
-> ⚠️ Root subdomains (e.g., `yourname.is-a.dev`) **must relate to software development** as required in our [Terms of Service](https://is-a.dev/terms).
-> Use a *nested* subdomain (e.g., `mc.yourname.is-a.dev`) for Minecraft.
+> ⚠️ Root subdomains (e.g., `yourname.meowed-at.me`) **must relate to software development** as required in our [Terms of Service](https://meowed-at.me/terms).
+> Use a *nested* subdomain (e.g., `mc.yourname.meowed-at.me`) for Minecraft.
 
 ---
 
@@ -109,9 +103,9 @@ We **do not allow** NS records for:
 * Non-functional or placeholder purposes
 * Self hosting websites that can be easily hosted on a free platform like GitHub Pages
 * If we have security or abuse concerns
-* New users of is-a.dev
-  * If you have not had an is-a.dev subdomain for at least 30 days, you will be denied due to security reasons.
-* Users that have abused is-a.dev subdomains in the past
+* New users of meowed-at.me
+  * If you have not had an meowed-at.me subdomain for at least 30 days, you will be denied due to security reasons.
+* Users that have abused meowed-at.me subdomains in the past
 
 > ⚠️ **We reserve the right to deny any NS request at our discretion for any reason.**
 
@@ -132,11 +126,11 @@ NS records give full control over DNS for a subdomain. That opens the door to mi
 
 ---
 
-## How can I update or delete my is-a.dev subdomain?
+## How can I update or delete my meowed-at.me subdomain?
 
 Follow these steps:
 
-1. **Review the [documentation](https://docs.is-a.dev) and [ToS](https://is-a.dev/terms)**.
+1. **Review the [documentation](https://docs.meowed-at.me) and [ToS](https://meowed-at.me/terms)**.
 2. **Open your JSON file** (in `/domains/your-subdomain.json`).
 3. **Make your changes** (or delete the file if you're removing your domain).
 4. **Commit the changes** to your fork.

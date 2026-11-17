@@ -1,100 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://docs.is-a.dev/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/quickstart/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/quickstart/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/github-pages/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/guides/github-pages/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/cloudflare-pages/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/guides/codeberg-pages/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/vercel/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/guides/netlify/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/codeberg-pages/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/guides/zoho-mail/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/netlify/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/guides/improvmx/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/zoho-mail/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/guides/dbh/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/improvmx/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/guides/firebase/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/dbh/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/tags/guides/</loc>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/tags/guides/</loc>
+    <loc>https://docs.meowed-at.me/guides/hashnode/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/firebase/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/guides/railway/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/hashnode/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/guides/render/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/railway/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/guides/replit/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/render/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/guides/discord-verification/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/replit/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/guides/bsky-handle/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/discord-verification/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/guides/other/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/bsky-handle/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/domain-structure/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/lovable/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/faq/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/domain-structure/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/resources/</loc>
+    <lastmod>2026-11-17T16:53:15Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/guides/other/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
+    <loc>https://docs.meowed-at.me/tags/useful/</loc>
   </url>
   <url>
-    <loc>https://docs.is-a.dev/faq/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
-  </url>
-  <url>
-    <loc>https://docs.is-a.dev/resources/</loc>
-    <lastmod>2026-11-17T18:44:41Z</lastmod>
-  </url>
-  <url>
-    <loc>https://docs.is-a.dev/tags/useful/</loc>
-  </url>
-  <url>
-    <loc>https://docs.is-a.dev/tags/</loc>
+    <loc>https://docs.meowed-at.me/tags/</loc>
   </url>
 </urlset>
